@@ -62,3 +62,8 @@ or
 ```
   vendor/bin/phpunit --testsuite=unit
 ```
+or via the provided Dockerfile
+```
+docker build -t php-iso11649 .
+docker run -t --rm php-iso11649
+```
